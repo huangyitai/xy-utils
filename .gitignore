@@ -1,0 +1,31 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+*.pid
+
+# Desktop service store from Mac OS X
+**/.DS_Store
+
+# Config of Goland IDE
+.idea/
+
+# Config of Vscode
+.vscode/
+
+# Output of go build
+/bin/
+
+# Dependency directories (remove the comment below to include it)
+/vendor/
+
+# Output of logger
+*.log
