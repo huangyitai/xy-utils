@@ -1,0 +1,17 @@
+xy-go:
+  log:
+    format:
+      time_key: "@timestamp"
+      time_field_format: 2006-01-02 15:04:05.000000
+      level_key: "@level"
+    writer:
+      - type: console
+        level: debug
+        pretty: true
+        write_sync: true
+      - type: console
+        level: info
+        pretty: false
+#      - type: zhiyan
+#        level: debug
+#        report_topic: fb-fc41e4afecf298e

@@ -1,0 +1,18 @@
+global:
+  fields:
+    "@podip": "123"
+format:
+  time_key: "@timestamp"
+  time_field_format: 2006-01-02 15:04:05.000000
+  level_key: "@level"
+writer:
+  - type: console
+    level: info
+    pretty: true
+    write_sync: false
+  - type: console
+    level: debug
+    pretty: false
+#  - type: zhiyan
+#    level: debug
+#    report_topic: fb-fc41e4afecf298e
