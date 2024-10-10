@@ -17,13 +17,11 @@ require (
 	github.com/rs/zerolog v1.28.0
 	github.com/shirou/gopsutil v2.21.11+incompatible
 	github.com/smartystreets/assertions v1.1.1 // indirect
-	github.com/smartystreets/goconvey v1.6.4
+	github.com/smartystreets/goconvey v1.8.1
 	github.com/spf13/cast v1.3.1
 	github.com/spf13/viper v1.8.1
 	github.com/tklauser/go-sysconf v0.3.13 // indirect
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
-	golang.org/x/crypto v0.0.0-20210616213533-5ff15b29337e // indirect
-	golang.org/x/text v0.3.6 // indirect
 	google.golang.org/protobuf v1.28.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1

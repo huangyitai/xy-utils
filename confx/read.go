@@ -1,12 +1,13 @@
 package confx
 
 import (
-	"github.com/pkg/errors"
-	"github.com/rs/zerolog/log"
-	"github.com/spf13/viper"
 	"io/ioutil"
 	"os"
 	"reflect"
+
+	"github.com/pkg/errors"
+	"github.com/rs/zerolog/log"
+	"github.com/spf13/viper"
 )
 
 // ReadFunc ...
